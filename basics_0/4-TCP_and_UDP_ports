@@ -1,4 +1,4 @@
-#!/bin/bash/env
+#!/usr/bin/env bash
 # Script to display listening TCP and UDP sockets with PID and program name
 
 # Using ss command (modern replacement for netstat)
