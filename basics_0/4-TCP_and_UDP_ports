@@ -8,4 +8,4 @@
 # -p = show PID/program name
 # -n = numeric output (don't resolve names)
 echo "Active Internet connections (only servers)"
-ss -tulpn
+netstat -lntup
