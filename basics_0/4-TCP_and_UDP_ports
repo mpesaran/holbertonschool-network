@@ -1,0 +1,11 @@
+#!/bin/bash
+# Script to display listening TCP and UDP sockets with PID and program name
+
+# Using ss command (modern replacement for netstat)
+# -t = TCP
+# -u = UDP
+# -l = listening sockets only
+# -p = show PID/program name
+# -n = numeric output (don't resolve names)
+echo "Active Internet connections (only servers)"
+ss -tulpn
